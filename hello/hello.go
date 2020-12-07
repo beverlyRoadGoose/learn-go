@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-	"log"
 	"heytobi.dev/greetings"
+	"log"
 )
 
 func main() {
