@@ -1,9 +1,11 @@
 package main
 
-import "fmt"
-
-import "rsc.io/quote"
+import (
+	"fmt"
+	"heytobi.dev/greetings"
+)
 
 func main() {
-	fmt.Println(quote.Go())
+	message := greetings.Hello("Golang")
+	fmt.Println(message)
 }
